@@ -776,7 +776,7 @@ var XBBCODE = (function() {
             ret.html = ret.html.replace(/\[.*?\]/g,"");
         }
         if (config.addInLineBreaks) {
-            ret.html = '<div style="white-space:pre-wrap;">' + ret.html + '</div>';
+            ret.html = '<span style="white-space:pre-wrap;">' + ret.html + '</span>';
         }
 
 		if (!config.escapeHtml) {
